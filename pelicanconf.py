@@ -21,15 +21,19 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Pythonic Perambulations', 'http://jakevdp.github.io/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/manualautomaton'),
+          ('instagram', 'https://www.instagram.com/wellmanwell/'),)
 
 DEFAULT_PAGINATION = 10
+
+TWITTER_USERNAME = 'manualautomaton'
+
+THEME = 'themes/pelican-alchemy/alchemy'
+
+SITESUBTITLE = 'Radiative transfer is a thing that happens.'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
